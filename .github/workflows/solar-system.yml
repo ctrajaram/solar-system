@@ -1,0 +1,10 @@
+name: solar-system-workflow
+on:
+    workflow_dispatch:
+jobs:
+      unit-testing:
+          name: Unit Testing
+          runs-on: ubuntu-latest
+          steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4            
